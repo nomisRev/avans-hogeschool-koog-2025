@@ -81,8 +81,8 @@ theme: kotlin
 | Gemma 3 4B  | 4 billion  | 8GB           | Moderate | Web applications, chatbots  |
 | Gemma 3 12B | 12 billion | 24GB          | Slowest  | Research, complex reasoning |
 
-<a href="https://ollama.com/" target="_blank">https://ollama.com/</a>
-<img src="https://ollama.com//ollama.png" style="display: block; margin: 0 auto;" />
+https://ollama.com/
+![ollama.png](https://ollama.com/public/ollama.png)
 
 ---
 
