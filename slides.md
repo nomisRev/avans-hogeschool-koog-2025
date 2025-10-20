@@ -461,7 +461,7 @@ val prompt: Prompt = prompt("my-prompt", params = OpenAIChatParams(
 ```
 
 ```kotlin
-val prompt: Prompt = prompt("my-prompt", params = LLMParams(
+val prompt: Prompt = prompt("my-prompt", params = OpenAIChatParams(
     maxTokens = 1000,
     temperature = 0.7,
 )) {
