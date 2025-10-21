@@ -1,11 +1,17 @@
 ---
 theme: kotlin
+transition: view-transition
 ---
 
 # Kotlin, Ktor & Koog
 
 - Simon Vergauwen
 
+---
+kodee:
+  variant: greeting
+  size: large
+  position: featured
 ---
 
 # Kotlin, Ktor & Koog
@@ -15,6 +21,11 @@ theme: kotlin
     - Ktor
 
 ---
+kodee:
+  variant: greeting
+  size: large
+  position: featured
+---
 
 # Language Learning Model
 
@@ -23,11 +34,21 @@ theme: kotlin
 > By analysing these vast pools of information, LLMs learn the statistical relationships between words and phrases
 
 ---
+kodee:
+    variant: greeting
+    size: small
+    position: corner
+---
 
 # Language Learning Model
 
 ![llm.svg](/llm-string.svg)
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Language Learning Model
@@ -42,17 +63,32 @@ theme: kotlin
 <img src="/tokens.png" style="width: 100%;" />
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Tokenization
 
 ![token_encoding.svg](/token_encoding.svg)
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # LLM
 
 ![llm-chain.png](/llm-chain.png)
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # LLM: Parameters
@@ -72,6 +108,11 @@ theme: kotlin
 </v-clicks>
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # LLM: Parameters
 
@@ -85,6 +126,11 @@ https://ollama.com/
 ![ollama.png](https://ollama.com/public/ollama.png)
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # LLM
 
@@ -93,15 +139,30 @@ https://ollama.com/
 - Can contain misinformation (e.g. false positives or hallucinations)
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # AI Kotlin Notebooks!
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Prompt Guide
 
 [OpenAI GPT5 Prompt Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Context Window
@@ -112,6 +173,11 @@ https://ollama.com/
     - 100% context window size is not recommended
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Context Window
 
@@ -119,6 +185,11 @@ https://ollama.com/
 - Avoid irrelevant information, and information bloat
     - This heavily degrades results.
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Prompt chaining
@@ -280,6 +351,11 @@ fun singleRunStrategy() = strategy("single_run") {
 </style>
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Koog in Ktor
 
@@ -290,6 +366,11 @@ app:
   port: "$PORT:8080"
 ```
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Koog in Ktor
@@ -348,6 +429,11 @@ fun Application.apiKey(): String = property<String>("app.apiKey")
 ````
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Ktor Server Sent Events
 
@@ -398,12 +484,22 @@ fun Application.agent(config: AppConfig) {
 ````
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Questions?
 
 - More demo?
 - Mobile <~> Ktor Architecture
 
+---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
 ---
 
 # Koog: LLMClient
@@ -440,6 +536,11 @@ for(response in responses) {
 ````
 
 ---
+kodee:
+  variant: greeting
+  size: small
+  position: corner
+---
 
 # Koog: Prompting
 
@@ -470,3 +571,14 @@ val prompt: Prompt = prompt("my-prompt", params = OpenAIChatParams(
 }
 ```
 ````
+
+---
+kodee:
+  variant: greeting
+  size: large
+  position: featured
+---
+
+# Thank you!
+
+- Questions?
